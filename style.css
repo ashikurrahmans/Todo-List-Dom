@@ -4,7 +4,6 @@ body {
   margin: 0;
   padding: 0;
 }
-
 header h1 {
   text-align: center;
   margin: 20px;
@@ -19,9 +18,12 @@ form {
 }
 #submitButton {
   height: 39px;
-  background: red;
+  background: #363677;
   border: none;
   width: 46px;
+  color: aliceblue;
+  margin-left: 6px;
+  border-radius: 5px;
 }
 form input {
   border: none;
@@ -49,7 +51,6 @@ form input {
 .remove-btn {
   margin: 0 4px;
 }
-
 .fa-trash {
   pointer-events: none;
 }
